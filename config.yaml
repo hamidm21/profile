@@ -4,7 +4,7 @@ title: "Hamid Moradi Kamali's Profile"
 theme: profile-theme
 
 Paginate: 3
-googleAnalytics: G-1CL0H09H1K
+# googleAnalytics: G-1CL0H09H1K
 
 markup:
   goldmark:
