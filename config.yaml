@@ -94,8 +94,8 @@ I'm on the lookout for opportunities to combine my research interests with hands
   experience:
     enable: true
     items:
-      - job: "Software & ML Engineer"
-        company: "IUST"
+      - job: "Team Lead"
+        company: "Iran University of Science & Technology"
         date: "Nov 2022 - Present"
         companyUrl: "http://www.iust.ac.ir/en"
         featuredLink:
@@ -111,7 +111,7 @@ I'm on the lookout for opportunities to combine my research interests with hands
           - Assembled a distributed cluster of servers tailored to our specific deployment
             and machine learning requirements in our lab.
       - job: "Teacher Assistant"
-        company: "IUST"
+        company: "Iran University of Science & Technology"
         date: "Sep 2022 - Jun 2023"
         companyUrl: "http://www.iust.ac.ir/en"
         content: |

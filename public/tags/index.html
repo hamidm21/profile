@@ -28,14 +28,13 @@
 
 
 <meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="The Profile Website of Hamid Moradi Kamali" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/tags/" />
-
+<meta property="og:url" content="https://hugo-profile.netlify.app/tags/" /><meta property="og:site_name" content="Hamid Moradi Kamali&#39;s Profile" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="The Profile Website of Hamid Moradi Kamali"/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -49,12 +48,12 @@
 
 <style>
     :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
-        --background-color: #eaedf0;
-        --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
-        --secondary-color: #f8f9fa;
+        --text-color: white;
+        --text-secondary-color: #93B1A6;
+        --background-color: #040D12;
+        --secondary-background-color: #93B1A6;
+        --primary-color: #5C8374;
+        --secondary-color: #183D3D;
 
          
         --text-color-dark: #e4e6eb;
@@ -65,18 +64,18 @@
         --secondary-color-dark: #212529;
     }
     body {
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
+        font-size: 1.2rem;
+        font-weight: 100;
+        line-height: 1;
         text-align: left;
     }
 </style>
 
-<meta name="description" content="Tags of My New Hugo Site">
+<meta name="description" content="Tags of Hamid Moradi Kamali&#39;s Profile">
 <link rel="stylesheet" href="/css/list.css" media="all">
 
   <title>
-Tags | My New Hugo Site
+Tags | Hamid Moradi Kamali&#39;s Profile
 
   </title>
 </head>
@@ -84,16 +83,6 @@ Tags | My New Hugo Site
 <body class="light" onload="loading()">
   
   
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
 
 
 
@@ -103,7 +92,9 @@ Tags | My New Hugo Site
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Hamid Moradi Kamali&#39;s Profile
                 
             </a>
 
@@ -121,40 +112,50 @@ Tags | My New Hugo Site
                     
 
                     
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">Experience</a>
+                    </li>
+                    
 
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">Education</a>
+                    </li>
                     
 
                     
 
                     
-
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">Achievements</a>
+                    </li>
                     
 
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">Contact</a>
+                    </li>
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/" title="Home">
+                            
+                            Home
+                        </a>
+                    </li>
                     
                     
                 </ul>
 
                 
-                
-                <div class="text-center">
-                    <button id="theme-toggle">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </button>
-                </div>
-            
                 
             </div>
         </div>
@@ -165,11 +166,80 @@ Tags | My New Hugo Site
     <h2 class="text-center pb-2">Tags</h2>
     <div class="row">
         
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/example/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="example">example</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">April 3, 2021</span>
+                    <a href="/tags/example/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/markdown-syntax/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Markdown syntax">Markdown syntax</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">April 3, 2021</span>
+                    <a href="/tags/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-4 shadow-sm">
+                    <a href="/tags/sample/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Sample">Sample</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto post-footer bg-transparent py-3">
+                    <span class="float-start bg-transparent">April 3, 2021</span>
+                    <a href="/tags/sample/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
         <div class="row justify-content-center">
             <div class="col-auto m-3">
                 
-
-
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/tags/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/tags/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/tags/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
             </div>
         </div>
     </div>
@@ -178,14 +248,21 @@ Tags | My New Hugo Site
   </div><footer>
     <div class="container py-3" id="recent-posts">
     
-    <div class="h3 text-center text-secondary py-3">Recent posts</div>
-    <div class="row justify-content-center">
-        
-    </div>
-    
 </div><div class="text-center pt-2">
     
 
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/hamid-moradi-kamali/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
     
 
     
@@ -197,12 +274,12 @@ Tags | My New Hugo Site
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="http://example.org/" title="My New Hugo Site">
-                    <img alt="Footer logo" src=""
+                <a href="https://hugo-profile.netlify.app" title="Hamid Moradi Kamali&#39;s Profile">
+                    <img alt="Footer logo" src="/fav.png"
                         height="40px" width="40px">
                 </a>
             </div>
-            &copy; 2022  All Rights Reserved
+            &copy; 2023  All Rights Reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">
@@ -218,32 +295,13 @@ Tags | My New Hugo Site
     </div>
 </div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
     }
-
 </script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
 
-</script>
 
 <script>
     let loadingIcons;
