@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hamid Moradi's Profile"
+title: "Hamid Moradi Kamali's Profile"
 theme: profile
 
 Paginate: 3
@@ -12,39 +12,15 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+    - identifier: home
+      name: Home
+      title: Home
+      url: /
       weight: 1
-    
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
 
 params:
-  title: "Hamid Moradi's Profile"
-  description: The Profile Website of Hamid Moradi
+  title: "Hamid Moradi Kamali's Profile"
+  description: The Profile Website of Hamid Moradi Kamali
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -57,42 +33,20 @@ params:
     disableThemeToggle: true
     defaultTheme: "light" # dark
 
-  # font:
-  #   fontSize: 1.5rem # default: 1rem
-  #   fontWeight: 500 # default: 400
-  #   lineHeight: 1 # default: 1.5
-  #   textAlign: right # default: left
+  font:
+    fontSize: 1.2rem # default: 1rem
+    fontWeight: 100 # default: 400
+    lineHeight: 1 # default: 1.5
+    textAlign: left # default: left
 
   # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
-
-  # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
-
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
+  color:
+    textColor: white
+    secondaryTextColor: "#93B1A6"
+    backgroundColor: "#040D12"
+    secondaryBackgroundColor: "#93B1A6"
+    primaryColor: "#5C8374"
+    secondaryColor: "#183D3D"
 
   # Hero
   hero:
@@ -100,39 +54,39 @@ params:
     intro: "Hi, my name is"
     title: "Hamid."
     subtitle: "A Software Engineer"
-    content: "I'm passionate about Computer Science, Quantitative Finance and research areas related to those topics. I'm currently a student of Computer Science in Iran University of Science and Technology."
-    image: /images/me.jpeg
+    content: "
+Welcome to my little corner of the internet! I'm a software engineer with a solid educational foundation. My skill set spans technical expertise, leadership, and real-world business experience.
+I have a deep passion for all things deep learning, especially in the realms of Natural Language Processing (NLP) and financial analysis. My thesis? It was about financial market analysis using social media content, using interpretable deep learning techniques.
+I'm on the lookout for opportunities to combine my research interests with hands-on experience in cutting-edge tech. If you've got an interesting project or a research endeavor, don't hesitate to get in touch. Let's embark on a journey that's truly remarkable!"
+    image: /images/me.jpg
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Hamid_Moradi_Kamali_CV.pdf"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/hamid-moradi-kamali/
+        - icon: fab fa-telegram
+          url: https://t.me/hamid_2178
+        - icon: fab fa-envelope
+          url: mailto:hmoradikamali@gmail.com
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
-    image: "/images/me.jpeg"
+    # image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Experienced software engineering professional with a solid educational background and a wealth of practical experience. Hold a master's degree in software engineering and have demonstrated leadership skills and strong business experience. Passionate about deep learning and machine learning. Research background in NLP and financial analysis. Seeking opportunities to merge research interests with hands-on experience in cutting-edge technologies.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
+        - "Python"
+        - "TS"
         - "JavaScript"
-        - "React"
+        - "GoLang"
         - "Node"
         - "Express"
 
@@ -140,131 +94,135 @@ params:
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Software & ML Engineer"
+        company: "IUST"
+        date: "Nov 2022 - Present"
+        companyUrl: "http://www.iust.ac.ir/en"
         featuredLink:
           enable: true
           name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          url: "https://finbright.org"
+          # content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          - Led a team of six students to develop Finbright, an intelligent AI-based
+            assistant for traders and investors in cryptocurrency markets.
+          - Applied machine learning and deep learning techniques to provide a
+            production-level software platform.
+          - Assembled a distributed cluster of servers tailored to our specific deployment
+            and machine learning requirements in our lab.
+      - job: "Teacher Assistant"
+        company: "IUST"
+        date: "Sep 2022 - Jun 2023"
+        companyUrl: "http://www.iust.ac.ir/en"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Assisted in grading student projects as a Teacher Assistant in the Trading
+            Algorithms Graduate Course.
+          - Presented my work on sentiment analysis during one session of the course.
+          - Held this position for two semesters.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+      - job: "Chief Technology Officer"
+        company: "Kahroba Company"
+        date: "Oct 2019 - Jan 2022"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Co-founded Kahroba Creative Company, aiming to provide reliable
+            software solutions for businesses.
+          - Acted as the CTO, overseeing the technical aspects of the company's
+            operations and projects.
+          - Led and mentored a team of developers, fostering a collaborative and high-
+            performing work environment.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Co-Founder & Software Engineer"
+        company: "3Tour Startup"
+        date: "Sep 2020 - May 2021"
+        content: |
+          - Utilized expertise as a software engineer with business development skills to
+            create software solutions that simplified travel agency operations.
+          - Built a robust web application using Typescript and Node.js to enhance
+            efficiency for partner agencies.
+          - Negotiated contracts and promoted software, expanding the client base.
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Co-Founder and Software Engineer"
+        company: "FitexApplication"
+        date: "Jan 2018 - Oct 2021"
+        content: |
+          - Developed a highly efficient video streaming system using gRPC, delivering
+            fast and seamless streaming experiences.
+          - Overcame business and marketing challenges, contributing to the
+            application's growth and customer acquisition.
+          - Leveraged technical expertise to support marketing efforts and attract a
+            larger user base.
+
+      - job: "Full Stack Engineer"
+        company: "Halyab"
+        date: "Mar 2020 - Aug 2020"
+        content: |
+          - Redesigned and implemented the web application of their question-answering
+            platform, expanding its features and improving user engagement.
+          - Used Next.js and Python Django to create a user-friendly website with optimal
+            performance, recognized at the Iran Web and Mobile Festival for its exceptional
+            website design.
+          - Carried out this project as a signed agreement between Kahroba Creative Company
+            and the owner of the Halyab Platform.
+
+      - job: "Back End Developer"
+        company: "Q company"
+        date: "Mar 2017 - Sep 2018"
+        companyUrl: "https://qcompany.org/"
+        content: |
+          - Rewrote the backend of the Goftare platform, a startup providing online
+            therapy, to improve efficiency, speed, and code readability.
+          - Transformed the backend architecture from a monolithic to a service-oriented
+            architecture (SOA), improving scalability and maintainability.
+          - Collaborated closely with the development team, implementing Agile methodologies
+            such as Scrum for effective teamwork and management.
+
+      - job: "Software Development Intern"
+        company: "Q Company"
+        companyUrl: "https://qcompany.org/"
+        date: "Jan 2017 - Mar 2017"
+        content: |
+          - During my internship at Q Company, I gained hands-on experience in software
+            development, learning essential skills including Scrum, Git, JavaScript, Node.js,
+            and MongoDB, making it an incredible and privileged opportunity.
 
   # Education
   education:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "Master's degree, Computer Software Engineering"
         school:
-          name: "University of California, Berkeley"
+          name: "Iran University of Science and Technology"
           url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+        date: "Sep 2021 - Oct 2023"
+        GPA: "3.5 out of 4.0"
+        content: |
+          - Supervisor: Dr. Reza Entezari Maleki
+          
+          - Thesis: "Improving Trading Algorithms Performance in the Cryptocurrency Market with Textual Data Analysis."
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "Bachelor's degree, Computer Software Engineering"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
+          name: "Lorestan University"
           url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        date: "Sep 2017 - Sep 2021"
 
   # Achievements
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hamid Moradi's Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Computer Science Konkur Ranking (Enterance Exam)
+        content: Ranked 221 out of nearly 10000 computer science students in the country enterance exam (Konkur).
+
+      - title: Best Website Design Nomination
+        content: Nominated for Best Website Desing in Iran Web and Mobile Festival.
+
 
   # projects
   projects:
-    enable: true
+    enable: false
     items:
-      - title: Hamid Moradi's Profile
+      - title: Hamid Moradi Kamali's Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
@@ -295,7 +253,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hamid Moradi's Profile V2
+      - title: Hamid Moradi Kamali's Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
@@ -313,14 +271,11 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: hmoradikamali@gmail.com
     btnName: Mail me
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      linkedin: https://www.linkedin.com/in/hamid-moradi-kamali/
+      telegram: https://t.me/hamid_2178
