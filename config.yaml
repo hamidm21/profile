@@ -54,11 +54,11 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Hamid."
-    subtitle: "A Software Engineer"
+    subtitle: "A Research Assistant at IUST"
     content: "
-Welcome to my little corner of the internet! I'm a software engineer with a solid educational foundation. My skill set spans technical expertise, leadership, and real-world business experience.
-I have a deep passion for all things deep learning, especially in the realms of Natural Language Processing (NLP) and financial analysis. My thesis? It was about financial market analysis using social media content, using interpretable deep learning techniques.
-I'm on the lookout for opportunities to combine my research interests with hands-on experience in cutting-edge tech. If you've got an interesting project or a research endeavor, don't hesitate to get in touch. Let's embark on a journey that's truly remarkable!"
+    Hello! I'm a software engineer with a strong educational background in scientific research, technical expertise, leadership, and real-world business experience. I'm passionate about deep learning,
+    particularly in the fields of Natural Language Processing (NLP). My thesis focused on financial market analysis using social media content and interpretable deep learning techniques.
+    I'm currently seeking opportunities to combine my research interests with hands-on experience in cutting-edge technology. If you have an interesting project or research endeavor, please don't hesitate to get in touch. Let's embark on a journey that's truly remarkable!
     image: /images/me.webp
     button:
       enable: true
