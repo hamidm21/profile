@@ -194,7 +194,7 @@ params:
       - title: "Master's degree, Computer Engineering"
         school:
           name: "Iran University of Science and Technology"
-          url: "https://example.org"
+          url: "https://www.topuniversities.com/universities/iran-university-science-technology"
         date: "Sep 2021 - Oct 2023"
         GPA: "3.5 out of 4.0"
         content: |
@@ -205,7 +205,7 @@ params:
       - title: "Bachelor's degree, Computer Engineering"
         school:
           name: "Lorestan University"
-          url: "https://example.org"
+          url: "https://www.lu.ac.ir/"
         date: "Sep 2017 - Sep 2021"
 
   # Achievements
