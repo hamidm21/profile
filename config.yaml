@@ -191,7 +191,7 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master's degree, Computer Software Engineering"
+      - title: "Master's degree, Computer Engineering"
         school:
           name: "Iran University of Science and Technology"
           url: "https://example.org"
@@ -202,7 +202,7 @@ params:
           
           - Thesis: "Improving Trading Algorithms Performance in the Cryptocurrency Market with Textual Data Analysis."
 
-      - title: "Bachelor's degree, Computer Software Engineering"
+      - title: "Bachelor's degree, Computer Engineering"
         school:
           name: "Lorestan University"
           url: "https://example.org"
