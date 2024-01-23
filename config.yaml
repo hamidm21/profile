@@ -54,7 +54,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Hamid."
-    subtitle: "A Research Assistant at IUST"
+    subtitle: "I'm Research Assistant at IUST"
     content: "
     Hello! I'm a software engineer with a strong educational background in scientific research, technical expertise, leadership, and real-world business experience. I'm passionate about deep learning,
     particularly in the fields of Natural Language Processing (NLP). My thesis focused on financial market analysis using social media content and interpretable deep learning techniques.
