@@ -54,7 +54,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Hamid."
-    subtitle: "A Student at IUST"
+    subtitle: "MSc Student at IUST"
     content: "
     I have been a software engineer since 2017. I hold both a bachelor’s and master’s degree in Computer Engineering. I have lead and worked in multiple software startups over the years and have failed pretty hard almost every time :) </br> 
     In terms of my scientific interests, I'm passionate about Natural Language Processing (NLP), Human-Computer Interactions, and Financial Market Analysis. My master's thesis was focused on financial market analysis using social media content through interpretable NLP methods. </br>
