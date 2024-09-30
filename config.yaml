@@ -51,11 +51,11 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Hamid."
+    title: "Hamid"
     subtitle: "and I'm a Computer Engineer!"
     content: "
-    I started my journey as a software developer at 2017. I hold a master’s degree in Computer Engineering. I think one should love the work that he does since no one else might! I have co-founded multiple software startups over the years and have failed so hard each time that I'm into philosophy now :) </br> 
-    and in terms of my scientific interests, I'm passionate about Natural Language Processing (NLP), Computational Social Science, and Financial Forecasting. My master's thesis was focused on rethinking sentiment analysis in financial tweets. </br>
+    I started my journey as a software developer in 2017. I hold a master’s degree in Computer Engineering. I have co-founded multiple software startups over the years and have failed so hard each time that I'm into philosophy now :) </br> 
+    Regarding my scientific interests, I'm passionate about Natural Language Processing (NLP), Computational Social Science, and Financial Forecasting. My thesis focused on rethinking sentiment analysis in financial tweets. </br>
     If you have a project or research opportunity that aligns with my areas of interest, please do not hesitate to reach out on LinkedIn."
     image: /images/me.jpeg
     button:
