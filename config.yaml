@@ -65,7 +65,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/hamid-moradi-kamali/
+          url: https://www.linkedin.com/in/hamk21
         - icon: fab fa-telegram
           url: https://t.me/hamid_2178
         - icon: fab fa-envelope
@@ -273,5 +273,5 @@ params:
   footer:
     recentPosts: false
     socialNetworks:
-      linkedin: https://www.linkedin.com/in/hamid-moradi-kamali/
+      linkedin: https://www.linkedin.com/in/hamk21
       telegram: https://t.me/hamid_2178
