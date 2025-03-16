@@ -68,8 +68,10 @@ params:
           url: https://www.linkedin.com/in/hamk21
         - icon: fab fa-telegram
           url: https://t.me/hamid_2178
-        - icon: fab fa-envelope
+        - icon: fab fa-envelope-open
           url: mailto:hmoradikamali@gmail.com
+        - icon: fab fa-google
+          url: https://hamidmoradikamali.ir/scholar
 
   # About
   about:
