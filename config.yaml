@@ -52,11 +52,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Hamid"
-    subtitle: "and I'm a Computer Engineer!"
-    content: "
-    I started my journey as a software developer in 2017. I hold a master’s degree in Computer Engineering. I have co-founded multiple software startups over the years and have suffered so much that I'm into philosophy now :) </br> 
-    My research interest are, Natural Language Processing, Software Engineering, Social Media Analysis, and Financial Forecasting. My thesis focused on rethinking sentiment analysis in finance. </br>
-    If you have a project or research opportunity that aligns with my areas of interest, please do not hesitate to reach out on LinkedIn."
+    subtitle: "and This is My Profile!"
+    content: "I’m an MSc graduate in Software Engineering with more than 8 years of experience in the field. I have co-founded multiple software startups over the years, gaining valuable experiences and learning from the challenges along the way. My research interests include Natural Language Processing, Software Engineering, Social Media Analysis, and Financial Forecasting, and I wrote my thesis on a Language Model approach for Financial Forecasting. I’m always eager to collaborate on projects or research opportunities that align with my expertise. If you’d like to connect or discuss potential collaborations, feel free to reach out!"
     image: /images/me.jpeg
     button:
       enable: true
