@@ -204,12 +204,12 @@ params:
   projects:
     enable: false
     items:
-      # - title: Hamid Moradi Kamali's Profile
-      #   content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile.png
-      #   featured:
-      #     name: Demo
-      #     link: https://hugo-profile.netlify.app
+      - title: Hamid Moradi Kamali's Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
       #   # badges:
         #   - "Hugo"
         #   - "Bootstrap"
