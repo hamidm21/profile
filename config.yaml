@@ -102,7 +102,7 @@ params:
           url: "https://finbright.org"
           # content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
         content: |
-          - Led a team of six students to develop Finbright, an intelligent AI-based
+          - Led a team of students in developing Finbright, an intelligent AI-based
             assistant for traders and investors in cryptocurrency markets.
           - Applied machine learning and deep learning techniques to provide a
             production-level software platform.
@@ -156,9 +156,8 @@ params:
         content: |
           - Redesigned and implemented the web application of their question-answering
             platform, expanding its features and improving user engagement.
-          - Used Next.js and Python Django to create a user-friendly website with optimal
-            performance, recognized at the Iran Web and Mobile Festival for its exceptional
-            website design.
+          - Used Nuxt.js and Python Django to create a user-friendly website with optimal
+            performance.
           - Carried out this project as a signed agreement between Kahroba Creative Company
             and the owner of the Halyab Platform.
 
@@ -167,7 +166,7 @@ params:
         date: "Mar 2017 - Sep 2018"
         companyUrl: "https://qcompany.org/"
         content: |
-          - Rewrote the backend of the Goftare platform, a startup providing online
+          - Redesigned the backend of the Goftare platform, a startup providing online
             therapy, to improve efficiency, speed, and code readability.
           - Transformed the backend architecture from a monolithic to a service-oriented
             architecture (SOA), improving scalability and maintainability.
@@ -193,7 +192,6 @@ params:
           name: "Iran University of Science and Technology"
           url: "https://www.topuniversities.com/universities/iran-university-science-technology"
         date: "Sep 2021 - Oct 2024"
-        GPA: "3.5 out of 4.0"
         content: |
           - Supervisor: Dr. Reza Entezari Maleki
       - title: "Bachelor's degree, Computer Engineering"
@@ -202,28 +200,17 @@ params:
           url: "https://www.lu.ac.ir/"
         date: "Sep 2017 - Sep 2021"
 
-  # Achievements
-  achievements:
-    enable: true
-    items:
-      - title: Computer Science Konkur Ranking (Enterance Exam)
-        content: Ranked 227 out of nearly 10000 computer science students in the country enterance exam (Konkur).
-
-      - title: Best Website Design Nomination
-        content: Nominated for Best Website Desing in Iran Web and Mobile Festival.
-
-
   # projects
   projects:
     enable: false
     items:
-      - title: Hamid Moradi Kamali's Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
+      # - title: Hamid Moradi Kamali's Profile
+      #   content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile.png
+      #   featured:
+      #     name: Demo
+      #     link: https://hugo-profile.netlify.app
+      #   # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
